@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.body {
+    background-color: black;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+padding-top: 90px;
+}
+.Button  {
+    color: #fff;
+    background-color: orangered !important;
+    border-color:#be4d25 !important;
+
+}
+.card1 {
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+.card1 img {
+    margin-bottom: 15px;
+}
+.card1 h1 {
+    font-weight: 700;
+}
+.card1 .Button1 {
+    margin-right: 50px;
+    color: #fff;
+    background-color: orangered !important;
+    border-color:#be4d25 !important;
+}
+.card1 a {
+    text-decoration: none;
+    color: white;
+}
+.card1 .card {
+    margin-top: 100px;;
+}
+.card1 .card .valueCard .title {
+    font-weight: 700;
+    font-size: 25px;;
+}
+.card1 .card .valueCard .email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card1 .card .valueCard .password {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card {
+    border-radius: 10px;
+    background-color: #181818;
+    height: max-content;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;  */
+    padding: 15px;
+}
