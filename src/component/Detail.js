@@ -67,11 +67,11 @@ const Deatil = () => {
                 </Col>
 
                 <Col lg={5}>
-                    <h4 className='title text-center'>MOUSE Logitech</h4>
-                    <div className='garisTitle'></div>
+                <Figure.Caption className='title'>Logitech Mouse.</Figure.Caption>
+                      <div className='garisTitle'></div>
 
                     <h4 className='mt-3'>Stock: 400</h4>
-                    <ul>
+                    <ul className='list'>
                         <li>Wireless Mouse</li>
                         <li>Switch lebih baik</li>
                         <li>Garansi 3 tahun</li>

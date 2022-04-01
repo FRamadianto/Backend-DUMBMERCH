@@ -30,14 +30,15 @@ const Login = () => {
                     <Form className='valueCard'>
                         <label className='title'>Login</label>
 
+
                         <Form.Group className="email" controlId="formBasicEmail">
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control type="email" placeholder="Email" />
                         </Form.Group>
 
-                        <Form.Group className="password" controlId="formBasicPassword">
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Group className="Password mb-4" controlId="formBasicEmail">
+                        <Form.Control type="Password" placeholder="Password" />
                         </Form.Group>
-                        
+                    
                         <div className="d-grid gap-2">
                         <Button className='Button' variant="primary" size="lg" type="submit">
                         Submit

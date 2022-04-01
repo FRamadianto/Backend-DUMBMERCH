@@ -81,21 +81,22 @@ const Home = () => {
         <Container className='container-fluid py-5'>
 
                 <Container className='Product mt-3 mb-5'>
-                    <h2 className='text-center mb-4'>Product</h2>
+                    <h2 className='text-centerr mb-4'>Product</h2>
                 <Row>
                     <Col lg={3} md={4} sm={6}>                
-                        <Card className='mb-3'>
+                        <Card className='mb-3 bg-white'>
                         <Card.Img variant="top" src={content} />
                         <Card.Body>
-                            <Card.Title className='text-center fw-bold'>Mouse</Card.Title>
-                            <Card.Text className='text-center'>
+                            <Card.Title className='text-centerrr'>Mouse</Card.Title>
+                            <Card.Text className='content'>
                             Rasakan mouse ini dengan switch yang sangat lembut.
                             </Card.Text>
-                        </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroupItem className='text-center'>Harga: 400.000 </ListGroupItem>
-                            <ListGroupItem className='text-center'>Stock Tersedia: 45</ListGroupItem>
+                            <ListGroupItem> Harga : 400.000 </ListGroupItem>
+                            <ListGroupItem> Stock Tersedia : 45</ListGroupItem>
                         </ListGroup>
+                        </Card.Body>
+
                         <Card.Body className='text-center'>
                             <Card.Link href="#" className='btn btn-dark'>Buy</Card.Link>
                             <Card.Link href="#" className='btn btn-dark'>Add To Cart</Card.Link>
@@ -104,18 +105,19 @@ const Home = () => {
                     </Col>
 
                     <Col lg={3} md={4} sm={6}>                
-                    <Card className='mb-3'>
+                        <Card className='mb-3 bg-white'>
                         <Card.Img variant="top" src={content} />
                         <Card.Body>
-                            <Card.Title className='text-center fw-bold'>Mouse</Card.Title>
-                            <Card.Text className='text-center'>
+                            <Card.Title className='text-centerrr'>Mouse</Card.Title>
+                            <Card.Text className='content'>
                             Rasakan mouse ini dengan switch yang sangat lembut.
                             </Card.Text>
-                        </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroupItem className='text-center'>Harga: 400.000 </ListGroupItem>
-                            <ListGroupItem className='text-center'>Stock Tersedia: 45</ListGroupItem>
+                            <ListGroupItem> Harga : 400.000 </ListGroupItem>
+                            <ListGroupItem> Stock Tersedia : 45</ListGroupItem>
                         </ListGroup>
+                        </Card.Body>
+
                         <Card.Body className='text-center'>
                             <Card.Link href="#" className='btn btn-dark'>Buy</Card.Link>
                             <Card.Link href="#" className='btn btn-dark'>Add To Cart</Card.Link>
@@ -123,46 +125,49 @@ const Home = () => {
                         </Card>
                     </Col>
 
-                    <Col lg={3} md={4} sm={6}>                
-                    <Card className='mb-3'>
+                     <Col lg={3} md={4} sm={6}>                
+                        <Card className='mb-3 bg-white'>
                         <Card.Img variant="top" src={content} />
                         <Card.Body>
-                            <Card.Title className='text-center fw-bold'>Mouse</Card.Title>
-                            <Card.Text className='text-center'>
+                            <Card.Title className='text-centerrr'>Mouse</Card.Title>
+                            <Card.Text className='content'>
                             Rasakan mouse ini dengan switch yang sangat lembut.
                             </Card.Text>
-                        </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroupItem className='text-center'>Harga: 400.000 </ListGroupItem>
-                            <ListGroupItem className='text-center'>Stock Tersedia: 45</ListGroupItem>
+                            <ListGroupItem> Harga : 400.000 </ListGroupItem>
+                            <ListGroupItem> Stock Tersedia : 45</ListGroupItem>
                         </ListGroup>
-                        <Card.Body className='text-center'>
-                            <Card.Link href="#" className='btn btn-dark'>Buy</Card.Link>
-                            <Card.Link href="#" className='btn btn-dark'>Add To Cart</Card.Link>
                         </Card.Body>
-                        </Card>
-                    </Col>
 
-                    <Col lg={3} md={4} sm={6}>                
-                    <Card className='mb-3'>
-                        <Card.Img variant="top" src={content} />
-                        <Card.Body>
-                            <Card.Title className='text-center fw-bold'>Mouse</Card.Title>
-                            <Card.Text className='text-center'>
-                            Rasakan mouse ini dengan switch yang sangat lembut.
-                            </Card.Text>
-                        </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem className='text-center'>Harga: 400.000 </ListGroupItem>
-                            <ListGroupItem className='text-center'>Stock Tersedia: 45</ListGroupItem>
-                        </ListGroup>
                         <Card.Body className='text-center'>
                             <Card.Link href="#" className='btn btn-dark'>Buy</Card.Link>
                             <Card.Link href="#" className='btn btn-dark'>Add To Cart</Card.Link>
                         </Card.Body>
                         </Card>
                     </Col>
-                </Row>
+                    
+                    <Col lg={3} md={4} sm={6}>                
+                        <Card className='mb-3 bg-white'>
+                        <Card.Img variant="top" src={content} />
+                        <Card.Body>
+                            <Card.Title className='text-centerrr'>Mouse</Card.Title>
+                            <Card.Text className='content'>
+                            Rasakan mouse ini dengan switch yang sangat lembut.
+                            </Card.Text>
+                        <ListGroup className="list-group-flush">
+                            <ListGroupItem> Harga : 400.000 </ListGroupItem>
+                            <ListGroupItem> Stock Tersedia : 45</ListGroupItem>
+                        </ListGroup>
+                        </Card.Body>
+
+                        <Card.Body className='text-center'>
+                            <Card.Link href="#" className='btn btn-dark'>Buy</Card.Link>
+                            <Card.Link href="#" className='btn btn-dark'>Add To Cart</Card.Link>
+                        </Card.Body>
+                        </Card>
+                    </Col>
+                    
+                </Row> 
                 
             </Container>
 

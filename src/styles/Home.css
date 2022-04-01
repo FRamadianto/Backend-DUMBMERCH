@@ -6,14 +6,27 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
-.password {
-    display: inline-block;
+
+.container {
+margin-top: -85px;
 }
-/* .button {
-    color: orangered;
-    border-color: orangered;
-    outline-color: orangered !important;
-} */
 .header{
-    margin-top: 100px;
+    margin-top: 50px;
+}
+.text-centerr {
+    color: orangered;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+.text-centerrr {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.content {
+    color: black !important;
+    text-align: center;
 }
